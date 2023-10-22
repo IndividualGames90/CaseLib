@@ -8,5 +8,5 @@
 
     IndividualGames mid-architecture library designed for prototypes ,case work and hypercasual/casual genres.
 
-    Kindly don't distribute without permission | IndividualGames@yandex.com | https://github.com/IndividualGames90
+                     IndividualGames@yandex.com | https://github.com/IndividualGames90
  */
