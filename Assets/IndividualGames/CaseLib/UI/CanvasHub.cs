@@ -1,4 +1,4 @@
-using IndividualGames.CaseLib.DataStructures;
+using IndividualGames.CaseLib.DesignPattern;
 using IndividualGames.CaseLib.DI;
 using IndividualGames.CaseLib.Signalization;
 using System;
@@ -11,7 +11,7 @@ namespace IndividualGames.CaseLib.UI
     /// Signal handler for changing canvas elements. Have to be located on Canvas.
     /// </summary>
     [RequireComponent(typeof(Canvas))]
-    public class CanvasHub : SingletonBehavior<CanvasHub>, IInitializable
+    public class CanvasHub : SingletonComponent<CanvasHub>, IInitializable
     {
         [SerializeField] Canvas canvas;
 

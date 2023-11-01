@@ -9,17 +9,17 @@ namespace IndividualGames.CaseLib.DI
         bool Initialized { get; set; }
 
         /// <summary> Initialize to use. </summary>
-        void Init()
+        virtual void Init()
         {
             Initialized = true;
         }
 
-        void Init(IContainer container)
+        virtual void Init(IContainer container)
         {
             Init();
         }
 
-        void Init<T>(T genericType)
+        virtual void Init<T>(T genericType)
         {
             Init();
         }

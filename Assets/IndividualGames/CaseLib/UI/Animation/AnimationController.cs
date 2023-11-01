@@ -1,10 +1,10 @@
-using IndividualGames.CaseLib.DataStructures;
+using IndividualGames.CaseLib.DesignPattern;
 using System.Collections;
 using UnityEngine;
 
 namespace Assets.IndividualGames.CaseLib.UI.Animation
 {
-    public class AnimationController : SingletonBehavior<AnimationController>
+    public class AnimationController : SingletonComponent<AnimationController>
     {
         [SerializeField] private AnimationCurve bounce;
         [SerializeField] private float animationSpeed = .01f;

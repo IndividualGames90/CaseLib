@@ -36,7 +36,6 @@ namespace IndividualGames.CaseLib.Signalization
         }
     }
 
-
     /// <summary>
     /// Basic Signal for action with single parameter.
     /// </summary>
